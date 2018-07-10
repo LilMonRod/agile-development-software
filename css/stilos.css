@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e6e6e6;
+}
+#encabezado, h1 {
+    color: #1f1f1f;
+}
+header, .main ,footer{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+header nav{
+    background: #528fd5;
+    overflow: hidden; /*ponerlo siempre*/
+    position: relative;
+    text-transform: capitalize;    
+}
+header nav ul {
+    list-style: none;/*quitar los puntos de las listas*/
+    overflow: hidden; /*ponerlo siempre*/
+    
+}
+nav>ul>li{ /*los ul directos del nav y los li directos del ul*/
+    float: left; /*flotados horizontalmente hacia la derecha*/
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block; /*para que los elementos sean en block y ni inline*/
+    padding: 20px 20px;/*para hacer espaciado entre el menu principal*/
+}
+nav ul li a:hover{
+    background: #3669a3;
+}
+nav>ul>li:hover div{
+    display:table; /*para que todos tengan el mismo ancho*/
+    
+}
+.main .articles{
+    width: 78.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+.main .articles article{/*linea entre los 2 textos*/
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+a .boton-leer{
+    text-decoration:none;
+    background-color: #e6e6e6;
+    display: block;
+}
+aside ul{
+    list-style: none;
+}
+aside{
+    
+    width: 20%;
+    background:#ff8000;
+    float: left; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+html {
+    background-image: url("img/tapiz.jpg");
+    
+    background-repeat: repeat;
+}
+img.circulo {
+	width: 50px;
+	position: relative;
+	float: left;
+}
+footer{
+    background: #000;
+    color: white;
+    clear: both; 
+    padding:10px 0px ;
+    text-align: center;
+}
+
