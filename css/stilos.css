@@ -8,6 +8,11 @@ body{
 #encabezado, h1 {
     color: #1f1f1f;
 }
+#content {
+    width: 1000px;
+    margin: 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
 header, .main ,footer{
     width: 100%;
     max-width: 1000px;
