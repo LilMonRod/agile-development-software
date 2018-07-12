@@ -8,14 +8,14 @@ body{
 #encabezado, h1 {
     color: #1f1f1f;
 }
-#content {
-    width: 1000px;
-    margin: 0px auto;
-    font-family: 'Times New Roman', Times, serif;
+
+h1, h2, h3 {
+    font-style: italic;
+
 }
 header, .main ,footer{
     width: 100%;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0px auto;
 }
 header nav{
@@ -36,7 +36,7 @@ nav ul li a{
     text-decoration: none;
     color: white;
     display: block; /*para que los elementos sean en block y ni inline*/
-    padding: 20px 20px;/*para hacer espaciado entre el menu principal*/
+    padding: 20px 30px;/*para hacer espaciado entre el menu principal*/
 }
 nav ul li a:hover{
     background: #3669a3;
@@ -55,6 +55,10 @@ nav>ul>li:hover div{
     background: white;
     margin-bottom: 20px;
 }
+li> a{
+    color: #528fd5;
+}
+
 a .boton-leer{
     text-decoration:none;
     background-color: #e6e6e6;
@@ -71,21 +75,17 @@ aside{
     padding: 20px;
     box-sizing: border-box;
 }
-html {
-    background-image: url("img/tapiz.jpg");
-    
-    background-repeat: repeat;
-}
+
 img.circulo {
 	width: 50px;
 	position: relative;
 	float: left;
 }
 footer{
-    background: #000;
+    background:  #528fd5;
     color: white;
     clear: both; 
-    padding:10px 0px ;
+    padding:0px 0px ;
     text-align: center;
 }
 
