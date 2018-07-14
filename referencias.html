@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="img/agile.png" rel="icon">
     <link rel="styleSheet" href="css/stilos.css"> <!--link externo-->
-    <script src="js/script.js"></script>
     <title>Agile software development</title>
 </head>
 <body>
@@ -25,9 +24,9 @@
             <li><a href="referencias.html">referencias</a></li>
           </ul>
         </nav>
-      </header>
+    </header>
       <!-- contenido-->
-      <section class="main">
+    <section class="main">
         <section class="articles">
             <h2>Enlaces de referencias</h2>
           <article>
@@ -54,8 +53,24 @@
           </article>
         </section>
       </section>
-      <footer><!--pie de pagina--> 
+      <!-- galeria --> 
+      <aside> <!-- fotos/imagenes -->
+        <h3>Galeria</h3>
+        <div id= "fotos">
+            <img onclick="funcion(0);" class="xq"  src="img/uno.jpeg">
+            <img onclick="funcion(1);" class="xq"  src="img/dos.jpeg">
+            <img onclick="funcion(2);" class="xq"  src="img/tres.jpeg">
+            <img onclick="funcion(3);" class="xq" src="img/ultima.jpeg">
+        </div>        
+        <div id="contador">
+          <img id="imagen" onclick="ejecutar();">
+        </div>
+                  
+      </aside> <!-- End fotos/imagenes -->
+      
+    <footer><!--pie de pagina--> 
         <p>Todos los derechos reservados &copy; CETAV 2018</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
