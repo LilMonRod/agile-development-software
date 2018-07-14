@@ -8,7 +8,6 @@ body{
 #encabezado, h1 {
     color: #1f1f1f;
 }
-
 header, .main ,footer{
     width: 100%;
     max-width: 1300px;
@@ -64,7 +63,9 @@ aside ul{
     list-style: none;
 }
 aside{
-    width: 20%;
+    margin-top: 29px;
+    height: 410px;
+    width: 17%;
     background:#ff8000;
     float: left; 
     padding: 20px;
@@ -92,7 +93,43 @@ footer{
     text-align: center;
     font-size: x-small;
 }
-
+/* fotos*/
+.xq {
+    width: 90%;
+    margin-bottom: 10px;
+    transition: 0.25s;
+    border: 3px solid orange;
+    height: 70px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+#foto button {
+    display: none;
+}
+#contador {
+    background: black;
+    display:none;
+    opacity: 0;
+    height: 100%;
+    transition: 1s;
+    transition-timing-function: ease;
+    padding-top: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center; 
+    z-index: 1;
+    width: 100%;
+}
+#contador:hover {
+    opacity: 1;
+}
+#contador img {
+    transition: 1s;
+    margin-top: 10%;
+    border: 2px solid black;
+}
+ /* fotos*/
 .hola{
     padding: 5px;
     padding: 20px;
