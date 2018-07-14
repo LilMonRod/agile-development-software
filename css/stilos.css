@@ -8,9 +8,7 @@ body{
 #encabezado, h1 {
     color: #1f1f1f;
 }
-h1, h2, h3 {
-    font-style: italic;
-}
+
 header, .main ,footer{
     width: 100%;
     max-width: 1300px;
@@ -66,14 +64,21 @@ aside ul{
     list-style: none;
 }
 aside{
-    
     width: 20%;
     background:#ff8000;
     float: left; 
     padding: 20px;
     box-sizing: border-box;
 }
-
+h1, h2, h3{
+    font-family: "Open Sans";
+    font-style: italic;
+}
+.principios, p{
+    font-family:" Merriweather";
+    padding: 5px;
+    text-align: center;
+}
 img.circulo {
 	width: 50px;
 	position: relative;
@@ -85,16 +90,9 @@ footer{
     clear: both; 
     padding:0px 0px ;
     text-align: center;
+    font-size: x-small;
 }
-h2,h3{
-    font-family: "Open Sans"
-}
-p{
-    text-align: justify;
-    text-indent: 2em;
-    padding: 5px;
-    font-family: "Verdana";
-}
+
 .hola{
     padding: 5px;
     padding: 20px;
@@ -112,7 +110,5 @@ p{
 strong{
     font-weight: bold;
 }
-.principios{
-    font-family:" Merriweather";
-}
+
 
