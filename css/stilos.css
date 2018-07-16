@@ -5,9 +5,18 @@
 body{
     background: #e6e6e6;
 }
+.concept{
+    text-align: left;
+    /*display:none;*/
+}
+.concept:hover{
+    /*display:block;*/
+}
+.define{
+    font-weight: bold;
+}
 #encabezado, h1 {
     color: #1f1f1f;
-    text-align: left;
 }
 header, .main ,footer{
     width: 100%;
@@ -42,7 +51,7 @@ nav>ul>li:hover div{
     
 }
 .main .articles{
-    width: 78.5%;
+    width:80%;
     margin-right: 1.5%;
     float: left;
     margin-top: 1.5%;
@@ -62,17 +71,19 @@ a .boton-leer{
 }
 aside ul{
     list-style: none;
+    padding-bottom: auto;
 }
 aside{
-    margin-top: 29px;
-    height: 410px;
-    width: 17%;
-    background:#ff8000;
+    margin-top: 1.5%;
+    margin-bottom: auto;
+    /*height: 410px;*/
+    width:18.5%;
+    background:#FF9140;
     float: left; 
     padding: 20px;
     box-sizing: border-box;
 }
-h1, h2, h3{
+h1, h2, h3,{
     font-family: "Open Sans";
     font-style: italic;
 }
@@ -99,7 +110,7 @@ footer{
     width: 90%;
     margin-bottom: 10px;
     transition: 0.25s;
-    border: 3px solid orange;
+    border: 3px solid #FF9140;
     height: 70px;
     box-sizing: border-box;
     object-fit: cover;
@@ -148,5 +159,3 @@ footer{
 strong{
     font-weight: bold;
 }
-
-
